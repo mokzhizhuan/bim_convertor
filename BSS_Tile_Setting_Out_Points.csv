@@ -1,0 +1,8 @@
+handle,layer,block_name,variant,elevation,x,y,z,revit_pairs
+B3BA,A-_ANOT----_A,BSS_Tile Setting Out Point - BSS_Tile Setting Out Point-V1-ELEVATION A,V1,A,0.0,0.0,0.0,1=1383381;5=494469;2=-2000150
+B39A,A-_ANOT----_A,BSS_Tile Setting Out Point - BSS_Tile Setting Out Point-494469-ELEVATION A,,A,0.0,0.0,0.0,1=1363659;5=494469;2=-2000150
+BAEE,A-_ANOT----_A,BSS_Tile Setting Out Point - BSS_Tile Setting Out Point-1428566-ELEVATION B,,B,1599.306505,0.0,0.0,1=1467218;5=494469;2=-2000150
+BC07,A-_ANOT----_A,BSS_Tile Setting Out Point - BSS_Tile Setting Out Point-V2-ELEVATION C,V2,C,6128.451652,0.0,0.0,1=1372696;5=494469;2=-2000150
+BBE7,A-_ANOT----_A,BSS_Tile Setting Out Point - BSS_Tile Setting Out Point-494469-ELEVATION C,,C,6128.451652,0.0,0.0,1=1372314;5=494469;2=-2000150
+C13A,A-_ANOT----_A,BSS_Tile Setting Out Point - BSS_Tile Setting Out Point-494469-ELEVATION D,,D,13077.085354,0.0,0.0,1=1374707;5=494469;2=-2000150
+D2CC,A-_ANOT----_A,BSS_Tile Setting Out Point - BSS_Tile Setting Out Point-494469-SHOWER AREA,,SHOWER AREA,20751.47504,0.0,0.0,1=1446359;5=494469;2=-2000150

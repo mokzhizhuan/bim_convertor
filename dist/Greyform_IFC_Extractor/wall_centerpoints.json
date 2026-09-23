@@ -1,0 +1,74 @@
+[
+  {
+    "Marking Type": "CenterWallPoint",
+    "Name": "WallCP1",
+    "X": 1.38,
+    "Y": 0.0,
+    "Z": 1.0,
+    "Wall Number": 1,
+    "Shape Type": "",
+    "Width": 2760.0,
+    "Height": 2595,
+    "Rotation_Axis": "+X"
+  },
+  {
+    "Marking Type": "CenterWallPoint",
+    "Name": "WallCP2",
+    "X": 0.0,
+    "Y": 0.6,
+    "Z": 1.0,
+    "Wall Number": 2,
+    "Shape Type": "",
+    "Width": 1200,
+    "Height": 2595,
+    "Rotation_Axis": "-Y"
+  },
+  {
+    "Marking Type": "CenterWallPoint",
+    "Name": "WallCP3",
+    "X": 0.48,
+    "Y": 1.2,
+    "Z": 1.0,
+    "Wall Number": 3,
+    "Shape Type": "",
+    "Width": 960,
+    "Height": 2595,
+    "Rotation_Axis": "-X"
+  },
+  {
+    "Marking Type": "CenterWallPoint",
+    "Name": "WallCP4",
+    "X": 0.96,
+    "Y": 1.5,
+    "Z": 1.0,
+    "Wall Number": 4,
+    "Shape Type": "",
+    "Width": 600,
+    "Height": 2595,
+    "Rotation_Axis": "-Y"
+  },
+  {
+    "Marking Type": "CenterWallPoint",
+    "Name": "WallCP5",
+    "X": 1.86,
+    "Y": 1.8,
+    "Z": 1.0,
+    "Wall Number": 5,
+    "Shape Type": "",
+    "Width": 1800,
+    "Height": 2595,
+    "Rotation_Axis": "-X"
+  },
+  {
+    "Marking Type": "CenterWallPoint",
+    "Name": "WallCP6",
+    "X": 2.76,
+    "Y": 0.9,
+    "Z": 1.0,
+    "Wall Number": 6,
+    "Shape Type": "",
+    "Width": 1800,
+    "Height": 2595,
+    "Rotation_Axis": "+Y"
+  }
+]

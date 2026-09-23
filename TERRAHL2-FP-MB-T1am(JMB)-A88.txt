@@ -1,0 +1,16 @@
+=== Elevation A ===
+- LINE: 2133
+- INSERT: 125
+- ARC: 29
+- CIRCLE: 1
+- IMAGE: 12
+- DIMENSION: 304
+
+=== Elevation B ===
+No entities detected
+
+=== Elevation C ===
+No entities detected
+
+=== Elevation D ===
+No entities detected

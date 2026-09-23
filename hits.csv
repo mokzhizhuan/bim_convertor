@@ -1,0 +1,6 @@
+target_tag,target_seg_idx,target_orientation,other_tag,other_seg_idx,other_orientation,relation,point_x,point_y,ov_x1,ov_y1,ov_x2,ov_y2
+Model Lines:1474141,1,H,Model Lines:1469898,1,V,H×V,1480,1655,,,,
+Model Lines:1474141,1,H,Model Lines:1472941,1,V,H×V,1030,1655,,,,
+Model Lines:1474141,1,H,Model Lines:1472941,2,V,H×V,1030,1655,,,,
+Model Lines:1474141,1,H,Model Lines:1472941,3,V,H×V,1030,1655,,,,
+Model Lines:1474141,1,H,Model Lines:1472941,4,V,H×V,1030,1655,,,,

@@ -1,0 +1,3 @@
+hit_type,target_name,target_owner,target_owner_id,target_a_x,target_a_y,target_a_z,target_b_x,target_b_y,target_b_z,hit_name,hit_owner,hit_owner_id,hit_item_type,hit_a_x,hit_a_y,hit_a_z,hit_b_x,hit_b_y,hit_b_z,intersect_x,intersect_y,plane_z_mid,hit_length,hit_angle_deg,layers,styles
+horizontal,Model Lines:1475320,IfcAnnotation,116973,70.0,70.0,100225.0,70.0,1270.0,100225.0,Model Lines:1472219,IfcAnnotation,116729,IfcPolyline,959.999,70.0,100225.0,70.0,70.0,100225.0,70.0,70.0,100225.0,889.999,180.0,,
+horizontal,Model Lines:1475320,IfcAnnotation,116973,70.0,70.0,100225.0,70.0,1270.0,100225.0,Model Lines:1473645,IfcAnnotation,116841,IfcPolyline,70.0,1270.0,100225.0,1030.0,1270.0,100225.0,70.0,1270.0,100225.0,960.0,0.0,,

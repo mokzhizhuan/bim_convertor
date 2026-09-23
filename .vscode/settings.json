@@ -1,0 +1,5 @@
+{
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "cmake.sourceDirectory": "C:/Users/MokZhiZhuan/OneDrive - WINSYS TECHNOLOGY PTE LTD/Documents/greyform GUI BIM Implementation/Basic GUI/IfcOpenShell/cmake",
+    "python-envs.defaultEnvManager": "ms-python.python:venv"
+}

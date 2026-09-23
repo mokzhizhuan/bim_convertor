@@ -1,0 +1,197 @@
+[
+    {
+        "calibration": {
+            "formula": {
+                "robot_x": "-ifc_y + tx",
+                "robot_y": "-ifc_x + ty"
+            },
+            "walls": [
+                "wall_1",
+                "wall_2"
+            ],
+            "tx": 0.0405,
+            "ty": 2.865,
+            "stage_3_inward_offset_m": 0.02
+        }
+    },
+    {
+        "wall": "wall_1",
+        "ifc_tag": "1428191",
+        "ifc_entity": "#213",
+        "ifc_midpoint_mm": [
+            1450.0,
+            25.0
+        ],
+        "stage_1_robot": {
+            "x": 0.0155,
+            "y": 1.415,
+            "z": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": -0.707106781,
+            "qw": 0.707106781
+        },
+        "stage_3_trim_start_mm": 0.0,
+        "stage_3_trim_end_mm": 0.0,
+        "stage_3_usable_length_mm": 2800.0,
+        "stage_3_robot": {
+            "x": -0.0045,
+            "y": 1.415,
+            "z": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": -0.707106781,
+            "qw": 0.707106781
+        }
+    },
+    {
+        "wall": "wall_2",
+        "ifc_tag": "1428186",
+        "ifc_entity": "#70",
+        "ifc_midpoint_mm": [
+            2875.0,
+            966.0
+        ],
+        "stage_1_robot": {
+            "x": -0.9255,
+            "y": -0.01,
+            "z": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": -1.0,
+            "qw": 0.0
+        },
+        "stage_3_trim_start_mm": 50.0,
+        "stage_3_trim_end_mm": 50.0,
+        "stage_3_usable_length_mm": 1832.0,
+        "stage_3_robot": {
+            "x": -0.9255,
+            "y": 0.01,
+            "z": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": -1.0,
+            "qw": 0.0
+        }
+    },
+    {
+        "wall": "wall_3",
+        "ifc_tag": "1428187",
+        "ifc_entity": "#105",
+        "ifc_midpoint_mm": [
+            1905.0,
+            1907.0
+        ],
+        "stage_1_robot": {
+            "x": -1.8665,
+            "y": 0.96,
+            "z": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.707106781,
+            "qw": 0.707106781
+        },
+        "stage_3_trim_start_mm": 25.0,
+        "stage_3_trim_end_mm": 25.0,
+        "stage_3_usable_length_mm": 1840.0,
+        "stage_3_robot": {
+            "x": -1.8465,
+            "y": 0.96,
+            "z": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.707106781,
+            "qw": 0.707106781
+        }
+    },
+    {
+        "wall": "wall_4",
+        "ifc_tag": "1428188",
+        "ifc_entity": "#128",
+        "ifc_midpoint_mm": [
+            985.0,
+            1586.0
+        ],
+        "stage_1_robot": {
+            "x": -1.5455,
+            "y": 1.88,
+            "z": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0,
+            "qw": 1.0
+        },
+        "stage_3_trim_start_mm": 0.0,
+        "stage_3_trim_end_mm": 0.0,
+        "stage_3_usable_length_mm": 592.0,
+        "stage_3_robot": {
+            "x": -1.5455,
+            "y": 1.86,
+            "z": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0,
+            "qw": 1.0
+        }
+    },
+    {
+        "wall": "wall_5",
+        "ifc_tag": "1428189",
+        "ifc_entity": "#151",
+        "ifc_midpoint_mm": [
+            480.0,
+            1315.0
+        ],
+        "stage_1_robot": {
+            "x": -1.2745,
+            "y": 2.385,
+            "z": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.707106781,
+            "qw": 0.707106781
+        },
+        "stage_3_trim_start_mm": 0.0,
+        "stage_3_trim_end_mm": 0.0,
+        "stage_3_usable_length_mm": 960.0,
+        "stage_3_robot": {
+            "x": -1.2545,
+            "y": 2.385,
+            "z": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.707106781,
+            "qw": 0.707106781
+        }
+    },
+    {
+        "wall": "wall_6",
+        "ifc_tag": "1428190",
+        "ifc_entity": "#190",
+        "ifc_midpoint_mm": [
+            25.0,
+            645.0
+        ],
+        "stage_1_robot": {
+            "x": -0.6045,
+            "y": 2.84,
+            "z": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0,
+            "qw": 1.0
+        },
+        "stage_3_trim_start_mm": 25.0,
+        "stage_3_trim_end_mm": 25.0,
+        "stage_3_usable_length_mm": 1240.0,
+        "stage_3_robot": {
+            "x": -0.6045,
+            "y": 2.82,
+            "z": 1.0,
+            "qx": 0.0,
+            "qy": 0.0,
+            "qz": 0.0,
+            "qw": 1.0
+        }
+    }
+]
