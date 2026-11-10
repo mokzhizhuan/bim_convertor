@@ -770,25 +770,6 @@ def clean_number(value: float, digits: int = 9) -> float:
     return 0.0 if abs(rounded) < 10 ** (-digits) else rounded
 
 
-def make_pose(
-    midpoint_mm: tuple[float, float],
-    wall_yaw_rad: float,
-) -> dict[str, float]:
-    robot_x, robot_y = ifc_point_to_robot(midpoint_mm)
-    robot_yaw = ifc_yaw_to_robot_yaw(wall_yaw_rad)
-    qx, qy, qz, qw = yaw_to_quaternion(robot_yaw)
-
-    return {
-        "x": clean_number(robot_x),
-        "y": clean_number(robot_y),
-        "z": clean_number(DEFAULT_ROBOT_Z_M),
-        "qx": clean_number(qx),
-        "qy": clean_number(qy),
-        "qz": clean_number(qz),
-        "qw": clean_number(qw),
-    }
-
-
 # ============================================================
 # Stage generation
 # ============================================================
@@ -889,6 +870,8 @@ def generate_stages(
                     clean_number(wall.midpoint_mm[0], 6),
                     clean_number(wall.midpoint_mm[1], 6),
                 ],
+                "ifc_length_mm": clean_number(wall.length_mm, 6),
+                "stage_3_center_shift_mm": clean_number((trim_start - trim_end) / 2.0, 6),
                 "stage_1_robot": stage_1[wall_name],
                 "stage_3_trim_start_mm": trim_start,
                 "stage_3_trim_end_mm": trim_end,
@@ -1003,6 +986,8 @@ def main() -> None:
     print("Wall summary:")
 
     for row in report:
+        if "wall" not in row:
+            continue
         print(
             f"  {row['wall']} / IFC {row['ifc_tag']}: "
             f"length={row['ifc_length_mm']:.3f} mm, "
